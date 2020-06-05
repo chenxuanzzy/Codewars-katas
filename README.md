@@ -1,2 +1,2 @@
 # Codewars-katas
-練習放上過的 Codewars
+放上練習過的 Codewars
