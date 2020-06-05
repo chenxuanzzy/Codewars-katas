@@ -40,7 +40,7 @@ function getMiddle(s) {
     if(s.length % 2 == 0){
       return (s[halfString - 1] + s[halfString])
     }
-    else if(s.length % 2 != 0){
+    else if(s.length % 2 !== 0){
       return s[halfString]
     }
   }
