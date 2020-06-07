@@ -7,7 +7,7 @@ Description:
     
     The number will always be a positive integer greater than 0.
 
-    中文翻譯：
+    中文翻譯：輸入一個數字會輸出數字的加總
 
 Sample Tests:
     describe('summation', function () {
