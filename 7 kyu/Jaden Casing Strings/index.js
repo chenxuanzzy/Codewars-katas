@@ -32,7 +32,7 @@ Solutions Link:
     https://www.codewars.com/kata/jaden-casing-strings/solutions
 
 My solution on Repl.it link:
-    
+    https://repl.it/@chenxuan2019cod/Jaden-Casing-Strings
 
 
   */
