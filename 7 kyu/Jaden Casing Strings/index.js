@@ -48,8 +48,9 @@ String.prototype.toJadenCase = function () {
   for(var i = 0; i < space.length; i++){
       sum = space[i];
       saveArr.push(sum[0].toUpperCase() + sum.slice(1));
-            //sum[ 單詞裡的第 0 個大寫 ] + sum[ 從第 index 1 開始取，因為前面已經把 index 0 的字母 push 進去了，所以剩下的用複製的方式，如果從 0 開始會又重複多一個大寫 ]
-
+            //sum[ 單詞裡的第 0 個大寫 ] + sum[ 從第 index 1 開始取，
+            //因為前面已經把 index 0 的字母 push 進去了，所以剩下的用複製的方式，
+            //如果從 0 開始會又重複多一個大寫 ]
     }
     return saveArr.join(" ");
   };
