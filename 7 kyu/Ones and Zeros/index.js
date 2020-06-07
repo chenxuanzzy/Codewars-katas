@@ -37,7 +37,7 @@ Solutions Link:
     https://www.codewars.com/kata/ones-and-zeros/solutions
 
 My solution on Repl.it link:
-    https://repl.it/@chenxuan2019cod/Grasshopper-Summation
+    https://repl.it/@chenxuan2019cod/Ones-and-Zeros#index.js
 
 
   */
@@ -47,5 +47,5 @@ My solution on Repl.it link:
 function binaryArrayToNumber(arr) {
     let numbinary = arr.join("");
     return parseInt(numbinary, 2);
-  }
-  binaryArrayToNumber([0,0,0,1])
+}
+binaryArrayToNumber([0,0,0,1])
