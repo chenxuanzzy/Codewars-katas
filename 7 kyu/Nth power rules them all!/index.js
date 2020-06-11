@@ -11,7 +11,6 @@ Description:
 
     Example 2: Input: {1, 2}, 5 --> (1 ^ 5 + 2 ^ 5) - (1 + 2) --> 33 - 3 --> Output: 30
 
-  翻譯蒟蒻：找到遺失的那個數。(計算等差列數)
 
 Example:
   findMissing([1, 3, 5, 9, 11]) == 7
