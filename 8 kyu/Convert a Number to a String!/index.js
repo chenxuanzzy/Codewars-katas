@@ -28,7 +28,6 @@ My solution on Repl.it link:
 
 // My solution
 
-
 function numberToString(num) {
     return num.toString();
   }
