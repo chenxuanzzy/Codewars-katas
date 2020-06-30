@@ -20,7 +20,7 @@ Kata Link:
     https://www.codewars.com/kata/5410c0e6a0e736cf5b000e69/train/javascript
 
 Solutions Link:
-    https://www.codewars.com/kata/52de553ebb55d1fca3000371/discuss
+    https://www.codewars.com/kata/5410c0e6a0e736cf5b000e69/solutions/javascript
 
 My solution on Repl.it link:
     https://repl.it/@chenxuan2019cod/Hamming-Distance#index.js
