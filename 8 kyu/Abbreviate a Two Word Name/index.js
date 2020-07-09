@@ -15,9 +15,6 @@ Description:
 
 Examples 
 
-  翻譯蒟蒻：請找出字串的大寫
-
-
 Sample Tests::
     Test.assertEquals(abbrevName("Sam Harris"), "S.H");
     Test.assertEquals(abbrevName("Patrick Feenan"), "P.F");
@@ -40,6 +37,6 @@ My solution on Repl.it link:
 // My solution
 
 function abbrevName(name){
-    let nameArray = name.split(" ");
-    return (nameArray[0][0] + "," + nameArray[1][0])
-  }
+  let nameArr = name.split(" ");
+  return (nameArr[0][0] + "." + nameArr[1][0]).toUpperCase()
+}

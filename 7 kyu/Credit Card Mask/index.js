@@ -9,35 +9,43 @@ Description:
 
     Your task is to write a function maskify, which changes all but the last four characters into '#'.
 
+Example:
+    maskify("4556364607935616") == "############5616"
+    maskify(     "64607935616") ==      "#######5616"
+    maskify(               "1") ==                "1"
+    maskify(                "") ==                 ""
+
+    // "What was the name of your first pet?"
+    maskify("Skippy")                                   == "##ippy"
+    maskify("Nananananananananananananananana Batman!")
 
 Sample Tests::
-   Test.assertEquals(disemvowel("This website is for losers LOL!"),
-  "Ths wbst s fr lsrs LL!")
+   describe("maskify", function(){
+  it("should work for some examples", function(){
+    Test.assertEquals(maskify('4556364607935616'), '############5616');
+    Test.assertEquals(maskify('1'), '1');
+    Test.assertEquals(maskify('11111'), '#1111');
+  });
+});
 
 Kata Link:
-    https://www.codewars.com/kata/disemvowel-trolls
+    https://www.codewars.com/kata/5412509bd436bd33920011bc/train/javascript
 
 Solutions Link:
-    https://www.codewars.com/kata/disemvowel-trolls/solutions
+    https://www.codewars.com/kata/5412509bd436bd33920011bc/solutions
 
 My solution on Repl.it link:
-    https://repl.it/@chenxuan2019cod/Disemvowel-Trolls/history
+    https://repl.it/@chenxuan2019cod/Credit-Card-Mask#index.js
+
   */
 
 // My solution
 
-
-function disemvowel(str) {
-  var divedStr = str.split("");
-  var vowel = "aeiouAEIOU".split("");
-  for(i = 0; i < str.length ; i++){
-    for(j = 0; j < vowel.length; j++){
-      if(divedStr[i] === vowel[j]){
-        divedStr.splice(i, 1, "")
-      }
-    }
-  }
-  var str = divedStr.join("");
-  return str;
-  }
-disemvowel("This website is for losers LOL!")
+function maskify(cc) {
+  str = cc.split("");
+  for(let i = 0; i < cc.length - 4; i++){
+    str[i] = "#";
+}
+return str.join("")
+}
+maskify("12345")
