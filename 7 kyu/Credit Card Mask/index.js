@@ -43,9 +43,9 @@ My solution on Repl.it link:
 
 function maskify(cc) {
   str = cc.split("");
-  for(let i = 0; i < cc.length - 4; i++){
+  for(let i = 0; i < cc.length - 5; i++){
     str[i] = "#";
 }
-return str.join("")
+return str.join("");
 }
 maskify("12345")
