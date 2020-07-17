@@ -24,7 +24,7 @@ Solutions Link:
     https://www.codewars.com/kata/find-the-stray-number/solutions
 
 My solution on Repl.it link:
-    
+    https://repl.it/@chenxuan2019cod/Find-the-stray-number#index.js
 
 
 */

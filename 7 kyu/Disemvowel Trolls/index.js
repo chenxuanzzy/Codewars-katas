@@ -27,7 +27,7 @@ Solutions Link:
     https://www.codewars.com/kata/disemvowel-trolls/solutions
 
 My solution on Repl.it link:
-    https://repl.it/@chenxuan2019cod/Disemvowel-Trolls/history
+    https://repl.it/@chenxuan2019cod/Disemvowel-Trolls
   */
 
 // My solution
