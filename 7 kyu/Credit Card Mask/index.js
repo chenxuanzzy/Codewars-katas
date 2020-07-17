@@ -43,7 +43,7 @@ My solution on Repl.it link:
 
 function maskify(cc) {
   str = cc.split("");
-  for(let i = 0; i < cc.length - 5; i++){
+  for(let i = 0; i < cc.length - 4; i++){
     str[i] = "#";
 }
 return str.join("");
