@@ -44,7 +44,7 @@ My solution on Repl.it link:
     https://repl.it/@chenxuan2019cod/Youre-a-square#index.js
   */
 
-// My solution
+// Best solution
 
 var isSquare = function(n){
     return (Math.sqrt(n) % 1 === 0)
@@ -60,6 +60,5 @@ var isSquare = function(n){
         return true;
       }
     }
-    
     return false;
   }
